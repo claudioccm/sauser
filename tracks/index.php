@@ -85,7 +85,7 @@ if( function_exists( 'is_bbpress' ) ) {
         ct_tracks_post_navigation();
     }
 
-} else {
+} else if( function_exists( 'ct_tracks_post_navigation' ) ) {
     ct_tracks_post_navigation();
 }
 
